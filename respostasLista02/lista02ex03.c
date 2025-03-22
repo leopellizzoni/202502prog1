@@ -10,9 +10,14 @@ int main() {
     // Verificar se o número é maior, menor ou igual a zero
     if (numero > 0) {
         printf("O numero digitado e maior que zero.\n");
-    } else if (numero < 0) {
+    } 
+
+    if (numero < 0) {
         printf("O numero digitado e menor que zero.\n");
-    } else {
+    } 
+
+    if (numero == 0)
+    {
         printf("O numero digitado e igual a zero.\n");
     }
 
